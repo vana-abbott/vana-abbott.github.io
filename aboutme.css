@@ -13,7 +13,7 @@ body {
     color: black;
     background: gainsboro;
     font-size: 18px;
-    padding: 25px 50px 75px 100px;
+    padding: 50px 100px 50px 100px;
 
     
 }
@@ -42,4 +42,13 @@ h2 {
     clear: both;
     margin: 25px;
     overflow: auto
+}
+.list {
+    text-align: end; 
+    float: right
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
 }
