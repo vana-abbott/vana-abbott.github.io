@@ -1,11 +1,7 @@
 h1 {
-    padding: 0;
-    margin: 0;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    font-size: 18px;
-    line-height: 150%;
-    color: #333;
-    background: #efeee7;
+    background-color: #F1F1F1;
+    text-align: center;
+    padding: 20px;
 }
 
 body {
@@ -31,7 +27,8 @@ body {
     float: left;
 }
 .bio {
-    text-align: center;
+    float: none;
+
 }
 h2 {
     background-color: whitesmoke;
@@ -43,12 +40,12 @@ h2 {
     margin: 25px;
     overflow: auto
 }
-.list {
-    text-align: end; 
-    float: right
-}
+
 .clearfix::after {
     content: "";
     display: block;
     clear: both;
+}
+.button {
+    1px solid white;
 }
